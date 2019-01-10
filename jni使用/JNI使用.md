@@ -111,3 +111,15 @@ public class MainActivity extends AppCompatActivity {
 
 
 [**一些注意事项**](https://blog.csdn.net/zeqiao/article/details/77893167)
+
+## 二更，在module中使用jni，以及一些开发事项
+
+![] (image/jni5.png)
+
+如上图，在相应的目录下添加cpp目录和CMakeLists.txt文件，然后在build.gradle中配置jni相关，参考上面配置。
+
+重要的是CMakeLists.txt中相关配置，在此做一个详细的说明
+
+![] (image/jni6.png)
+![] (image/jni7.png)
+![] (image/jni8.png)

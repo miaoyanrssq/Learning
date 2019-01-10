@@ -34,7 +34,7 @@ public class ProguardAction extends AnAction{
 }
 ```
 
-常见继承自AnAction的class，并实现actionPerformed函数，此函数就是菜单点击的相应。此action需要对应plugin.xml中action的注册，可以手动对照，也可以直接右键新建Action类，配置相关参数。
+创建继承自AnAction的class，并实现actionPerformed函数，此函数就是菜单点击的相应。此action需要对应plugin.xml中action的注册，可以手动对照，也可以直接右键新建Action类，配置相关参数。
 
 ## 进阶
 
